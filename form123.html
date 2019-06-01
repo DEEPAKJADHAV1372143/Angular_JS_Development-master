@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>	
+	    <style>
+        body{
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        h2{
+            font-size: 12px;
+        }
+        form{
+            background: linear-gradient(orange,orangered,lightsalmon);
+            padding: 10px;
+            color: white;
+            width: 400px;
+            border-radius: 20px;
+        }
+
+    </style>
+</head>
+<body>
+	<form method=" post get" action=" xyz.php">
+        <input type="text"     		name="abc"      	placeholder="Enter name" readonly required>               <br>
+		<input type="password" 		name="password" 	placeholder="Enter password">			<br>
+		<input type="color"    		name="color"   		placeholder="Select color">				<br>
+		<input type="date"     		name="date"     	placeholder="Enter date">				<br>
+		<input type="time"     		name="time"      	placeholder="Enter time">				<br>
+		<input type="datetime-local"name="datetime-local"      placeholder="Enter datetime-local"><br>
+		<input type="email"     	name="email"      	placeholder="Enter email">				<br>
+		<input type="month"     	name="month"      	placeholder="Enter month">				<br>
+		<input type="number"     	name="number"      	placeholder="Enter name">				<br>
+		<input type="file"     		name="file"      	placeholder="Enter file">				<br>
+		
+		<label>Select Your Hobbies</label>
+        <input type="checkbox" value="eating">Eating
+        <input type="checkbox" value="coding">Coding
+        <input type="checkbox" value="sleeping">Sleeping
+		
+		<label>Is HTML Easy ?</label>
+        <input type="radio" value="male" name="easy"> male
+        <input type="radio" value="female" name="easy"> female
+        <input type="radio" value="nature" name="easy"> Natuer
+		
+		
+		<input type="submit" value="Submit">
+		<input type="reset" value="reset">
+		<input type="button" value="Add">
+        
+    </form>
+	
+	
+	 <h2>Audio Player</h2>
+								<div>
+									<audio controls>
+										<source src="A.mp3" type="audio/mp3">
+									</audio>
+								</div>
+
+    <!-- Video Element -->
+    <h2>Video Player</h2>
+									<div>
+										<video controls poster="img/water.jpg" >
+											<source src="Z.mp4" type="video/mp4" >
+										</video>
+									</div>
+									
+		<!-- login form-->							
+	<form>
+        <label for="abc">UserName </label>
+        <input type="text" id="abc">
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass">
+        <br>
+       <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+	
+	 <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <form>
+        <label>Select a Language</label>
+        <select>
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>JQuery</option>
+            <option>Bootstrap</option>
+            <option>Angular JS</option>
+        </select>
+    </form>
+	
+	 <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <form>
+        <label>Your Message</label>
+        <textarea rows="5" cols="30"></textarea>
+    </form>
+	
+	
+
+
+</body>
+</html>
