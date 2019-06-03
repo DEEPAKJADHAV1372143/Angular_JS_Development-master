@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> html5 head tag
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<link href="pro/bootstrap.css" rel="stylesheet" />
+		<base href="pro/img/" >
+		<style>
+		
+		nav{
+            background-color: orange;
+            overflow: hidden;
+        }
+        nav ul li{
+            float: left;
+        }
+		nav ul li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 25px;
+            font-size: 20px;
+            display: inline-block;
+        }
+		   nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+		 aside{
+            background-color:pink;
+            float: left;
+            width: 250px;
+			
+            text-align: center;
+            border-radius: 15px;
+        }
+		#do{height:500px;}
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: Green;
+            padding: 14px 25px;
+            display: block;
+            font-size: 20px;
+        }header , footer{
+            background-color:yellow;
+            padding: 10px;
+            color: red;
+            text-align: center;
+            font-size: 20px;
+            line-height: 10px;
+        }
+		aside ul li a:hover{
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 15px;
+        }
+		nav ul li a:hover{
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 15px;
+        }
+		
+
+      @media print {
+    @media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+      }
+      
+		</style>
+	</head>
+	<body>
+		<header>
+			<h2>UI Technologies</h2>
+			<p>The Smart Way of Learning</p>
+        </header>
+		<div>
+		     <nav>
+				<ul> 
+					<li><a href="#">Home</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Logout</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Signin</a></li>
+				</ul>
+			 </nav>
+		</div>
+		<section>
+		<aside>
+        <ul>
+            <li>
+                <a href="#">HTML</a>
+            </li>
+            <li>
+                <a href="#">CSS</a>
+            </li>
+            <li>
+                <a href="#">JavaScript</a>
+            </li>
+            <li>
+                <a href="#">JQuery</a>
+            </li>
+            <li>
+                <a href="#">AJAX</a>
+            </li>
+            <li>
+                <a href="#">Bootstrap</a>
+            </li>
+            <li>
+                <a href="#">Angular JS</a>
+            </li>
+        </ul>
+    </aside>
+	<div id="bo">
+		 <article>
+            <h4>UI Technologies</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi consequuntur debitis, earum, eius est eum ex expedita explicabo hic inventore labore molestias nihil nobis pariatur quod rerum suscipit tenetur totam vel? Doloremque in minima nisi odio, officia quo veritatis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequuntur cumque, cupiditate ea ex magni maxime minima minus modi nihil, nisi perspiciatis tempora voluptatum. Blanditiis deleniti facere natus? Aliquam animi blanditiis consectetur dicta dolor dolore dolores eius explicabo fugit harum id impedit nulla, pariatur perferendis quod ratione sapiente, velit voluptatibus.</p>
+        </article>
+		 
+		
+	</div>
+	</section>
+	
+	<canvas id="a" width="200" height="212" style="border: 2px solid red;"></canvas>
+
+		<script>
+		var c = document.getElementById("a");
+		var x = c.getContext("2d");
+			x.fillstyle = "92B901";
+			x.fillRect(10,10,180,190);
+
+		</script> 
+
+	 <footer>
+        <h3>Copyright &copy; 2018 , UI Technologies</h3>
+        <p>All Rights Reserved</p>
+        <p>Developed & Maintained by Deepak Jadhav</p>
+    </footer>
+	</body>
+</html>
